@@ -519,3 +519,13 @@ main{
 @media (min-width:700px){
   main{max-width:680px !important;margin:0 auto !important}
 }
+
+.song-list{display:grid;gap:8px;width:100%}
+.song-row{width:100%;display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center;text-align:left;border:1px solid #efc5d0;background:#fff4f7;border-radius:15px;padding:10px 12px;color:#684c55}
+.song-row.active{background:#ffdce6;border-color:#e98ca5}
+.song-icon{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#ed809f;color:white}
+.song-text{min-width:0;display:flex;flex-direction:column}.song-text b{font-size:14px}.song-text small{font-size:12px;color:#9a747f}
+.music-player{margin-top:12px;padding:14px;border:1px solid #efb9c8;border-radius:17px;background:linear-gradient(135deg,#ffd9e3,#fff1f5)}
+.now{text-align:center;display:flex;flex-direction:column;gap:2px}.now small{font-size:11px;color:#9b7480}.now b{font-size:15px}.now span{font-size:12px;color:#9b7480;min-height:16px}
+.music-controls{display:flex;justify-content:center;gap:14px;align-items:center;margin:10px 0}.music-controls button{width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#df6687;font-size:19px}.music-controls .big-play{width:56px;height:56px;background:#ec7898;color:#fff}
+#songSeek{width:100%;accent-color:#e86689}.song-times{display:flex;justify-content:space-between;font-size:11px;color:#96717b}
